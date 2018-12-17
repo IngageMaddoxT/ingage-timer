@@ -36,6 +36,10 @@ function getTimeRemaining(endtime) {
     updateClock();
     var timeinterval = setInterval(updateClock, 1000);
   }
+
+  function myFunction() {
+    setInterval(console.log('hi'), 5000);
+  }
   
   
   var minutesText = document.getElementById('input-minutes').value;
