@@ -3,11 +3,11 @@
 
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" >
-<style>
-    /*Phone Number Input "hack"*/
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <style>
+        /*Phone Number Input "hack"*/
 
 .phone-number .col-xs-3::after {
  /*content property for dashes*/ 
@@ -44,93 +44,107 @@ label{
 </head>
 
 <body>
-
+<!-- 
     <input id="your-name" type="text" placeholder="First Last" />
-    <input id="your-title" type="text" value= "Sr Consultant" />
+    <input id="your-title" type="text" value="Sr Consultant" />
     <input id="your-mobile-1" type="text" value="513" />
     <input id="your-mobile-2" type="text" />
-    <input id="your-mobile-3" type="text" />
-
-<div class="container">
-        <form class="form-horizontal">
-    <div class="form-group col-xs-4">
-            <label for="exampleFormControlInput1" class="control-label">Name</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First Last">
-          </div>
-          </form>
-        </div>
+    <input id="your-mobile-3" type="text" /> -->
 
     <div class="container">
-            <!--Inline form-->  
-              <form class="form-horizontal">
-    <!--bootstrap form markup-->
-    <div class="form-group phone-number">
-            <!--col on label (could float instead)-->
-            <label class="col-sm-2 control-label">Phone</label>
-            <div class="col-xs-3">
-              <!--first col-->
-              <input name="phone" class="form-control" size="3" maxlength="3" value="513">
+        <form class="form-horizontal">
+            <div class="form-group col-xs-4">
+                <label for="exampleFormControlInput1" class="control-label">Name</label>
+                <input type="text" class="form-control" id="your-name" placeholder="First Last">
             </div>
-            <div class="col-xs-3">
-              <!--second col-->
-              <input name="phone" class="form-control" size="3" maxlength="3">
+        </form>
+    </div>
+
+    <div class="container">
+        <form class="form-horizontal">
+            <div class="form-group col-xs-4">
+                <label for="exampleFormControlInput1" class="control-label">Name</label>
+                <input type="text" class="form-control" id="your-title" placeholder="Your Title">
             </div>
-            <div class="col-xs-4">
-              <!--last col-->
-              <input name="phone" class="form-control" size="4" maxlength="4">
+        </form>
+    </div>
+
+    <div class="container">
+        <!--Inline form-->
+        <form class="form-horizontal">
+            <!--bootstrap form markup-->
+            <div class="form-group phone-number">
+                <!--col on label (could float instead)-->
+                <label class="col-sm-2 control-label">Phone</label>
+                <div class="col-xs-3">
+                    <!--first col-->
+                    <input id="your-mobile-1" name="phone" class="form-control" size="3" maxlength="3" value="513">
+                </div>
+                <div class="col-xs-3">
+                    <!--second col-->
+                    <input id="your-mobile-2" name="phone" class="form-control" size="3" maxlength="3">
+                </div>
+                <div class="col-xs-4">
+                    <!--last col-->
+                    <input id="your-mobile-3" name="phone" class="form-control" size="4" maxlength="4">
+                </div>
             </div>
-          </div></form></div>   
+        </form>
+    </div>
 
 
     <div id="div1" style="display: none;">
-    <table style="font-family:Verdana,Helvetica,Arial,sans-serif;border-collapse:collapse" id="table1">
-        <tbody>
-            <tr>
-                <td style="padding:3px 9px 3px 3px">&nbsp;&nbsp;<a href="http://www.ingagepartners.com/" border="0"
-                        style="color:rgb(17,85,204)" target="_blank"><img src="https://ci4.googleusercontent.com/proxy/atdy7iVoA3FlFwC_Xgx4OkocQNdrkrMT8oX_jZS1_xNad7FTCUSgLbxjboBGUXGew_c8kpFg0ivdHAtaHClqa8xMdGBXJHT8P6xCp0COktdkaIdB9Igewyfky8dHF91nrZxjQQp6V9G3pd8y0AJe4Rc90BAHIkgzY5Y_Zf8s55LdZVZYtVjoAF9e9Xs4jkTv7w9VVk1UxwbNZN1woQ=s0-d-e1-ft#https://docs.google.com/uc?export=download&amp;id=1diy40ePOonEAcWO7lkAirRnVCAdxTRtn&amp;revid=0B7QuMSYak7RSc3Y3VStJQWEveUlxQzIwOXR1blFaMDkyRzlFPQ"></a></td>
-                <td></td>
-                <td style="padding-left:9px;padding-right:9px">
-                    <div nowrap="">
+        <table style="font-family:Verdana,Helvetica,Arial,sans-serif;border-collapse:collapse" id="table1">
+            <tbody>
+                <tr>
+                    <td style="padding:3px 9px 3px 3px">&nbsp;&nbsp;<a href="http://www.ingagepartners.com/" border="0"
+                            style="color:rgb(17,85,204)" target="_blank"><img src="https://ci4.googleusercontent.com/proxy/atdy7iVoA3FlFwC_Xgx4OkocQNdrkrMT8oX_jZS1_xNad7FTCUSgLbxjboBGUXGew_c8kpFg0ivdHAtaHClqa8xMdGBXJHT8P6xCp0COktdkaIdB9Igewyfky8dHF91nrZxjQQp6V9G3pd8y0AJe4Rc90BAHIkgzY5Y_Zf8s55LdZVZYtVjoAF9e9Xs4jkTv7w9VVk1UxwbNZN1woQ=s0-d-e1-ft#https://docs.google.com/uc?export=download&amp;id=1diy40ePOonEAcWO7lkAirRnVCAdxTRtn&amp;revid=0B7QuMSYak7RSc3Y3VStJQWEveUlxQzIwOXR1blFaMDkyRzlFPQ"></a></td>
+                    <td></td>
+                    <td style="padding-left:9px;padding-right:9px">
                         <div nowrap="">
-                            <div nowrap="" style="color:rgb(80,0,80)">
-                                <font face="arial, helvetica, sans-serif"><b><span style="color:rgb(0,102,170)"><span id="ingage-name"></span>&nbsp;</span>
+                            <div nowrap="">
+                                <div nowrap="" style="color:rgb(80,0,80)">
+                                    <font face="arial, helvetica, sans-serif"><b><span style="color:rgb(0,102,170)"><span
+                                                    id="ingage-name"></span>&nbsp;</span>
+                                            <font color="#999999">|</font>
+                                            <font color="#0066aa">&nbsp;</font>
+                                        </b></font><span style="color:rgb(0,102,170);font-family:arial,helvetica,sans-serif"><span
+                                            id="ingage-title"></span>&nbsp;</span><em style="font-family:verdana,sans-serif;font-weight:700">
                                         <font color="#999999">|</font>
-                                        <font color="#0066aa">&nbsp;</font>
-                                    </b></font><span style="color:rgb(0,102,170);font-family:arial,helvetica,sans-serif"><span id="ingage-title"></span>>&nbsp;</span><em
-                                    style="font-family:verdana,sans-serif;font-weight:700">
-                                    <font color="#999999">|</font>
-                                </em>
-                                <font color="#666666" style="font-family:verdana,sans-serif">&nbsp;<span id="ingage-mobile"></span> (m)</font>
-                            </div>
-                            <div style="color:rgb(80,0,80);font-size:9pt;margin-bottom:3px">
-                                <font face="verdana, sans-serif">
-                                    <font color="#666666" style="font-size:9pt"><a href="http://www.ingagepartners.com/culture/esop/"
-                                            style="color:rgb(17,85,204)" target="_blank">
-                                            <font color="#666666">Employee-owned</font>
-                                        </a>&nbsp;</font>
-                                    <font color="#999999" style="font-size:9pt">|</font>
-                                    <font color="#e69138" style="font-size:9pt">&nbsp;</font>
-                                    <font color="#666666" style="font-size:9pt"><a href="https://bcorporation.net/directory/ingage-partners-llc"
-                                            style="color:rgb(17,85,204)" target="_blank">
-                                            <font color="#666666">Certified B Corp</font>
-                                        </a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/company/ingage-partners-llc/"
-                                            style="color:rgb(17,85,204)" target="_blank">
-                                            <font color="#666666">Linkedin profile</font>
-                                        </a></font>
-                                </font>
+                                    </em>
+                                    <font color="#666666" style="font-family:verdana,sans-serif">&nbsp;<span id="ingage-mobile"></span>
+                                        (m)</font>
+                                </div>
+                                <div style="color:rgb(80,0,80);font-size:9pt;margin-bottom:3px">
+                                    <font face="verdana, sans-serif">
+                                        <font color="#666666" style="font-size:9pt"><a href="http://www.ingagepartners.com/culture/esop/"
+                                                style="color:rgb(17,85,204)" target="_blank">
+                                                <font color="#666666">Employee-owned</font>
+                                            </a>&nbsp;</font>
+                                        <font color="#999999" style="font-size:9pt">|</font>
+                                        <font color="#e69138" style="font-size:9pt">&nbsp;</font>
+                                        <font color="#666666" style="font-size:9pt"><a href="https://bcorporation.net/directory/ingage-partners-llc"
+                                                style="color:rgb(17,85,204)" target="_blank">
+                                                <font color="#666666">Certified B Corp</font>
+                                            </a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/company/ingage-partners-llc/"
+                                                style="color:rgb(17,85,204)" target="_blank">
+                                                <font color="#666666">Linkedin profile</font>
+                                            </a></font>
+                                    </font>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
 
     <br /> <br />
-    <button onclick="copyToClipboard('#signature-template')">Copy text</button>
-    <button onclick="copyTable('#ingage-signature')">Copy table</button>
-    <input type="button" value="select table" onclick="selectElementContents( document.getElementById('ingage-signature'));">
+    <!-- <button onclick="copyToClipboard('#signature-template')">Copy text</button>
+    <button onclick="copyTable('#ingage-signature')">Copy table</button> -->
+    <input type="button" value="Create Signature" onclick="selectElementContents( document.getElementById('ingage-signature'));">
 
     <script>
 
@@ -139,16 +153,16 @@ label{
 
             // myWindow.document.write("<p>This is 'MsgWindow'. I am 200px wide and 100px tall!</p>");
 
-var myName = $("#your-name").val();
-var myTitle = $("#your-title").val();
-var myPhone = $("#your-mobile").val();
-$("#ingage-name").text(myName);
-$("#ingage-title").text(myTitle);
-$("#ingage-mobile").text(myPhone);
+            var myName = $("#your-name").val();
+            var myTitle = $("#your-title").val();
+            var myPhone = $("#your-mobile-1").val()+"."+$("#your-mobile-2").val()+"."+$("#your-mobile-3").val();
+            $("#ingage-name").text(myName);
+            $("#ingage-title").text(myTitle);
+            $("#ingage-mobile").text(myPhone);
 
 
 
-            var w = window.open("", "", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=500,width=400,height=400");
+            var w = window.open("", "", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=500,width=700,height=400");
             var html = $("#div1").html();
             html
 
